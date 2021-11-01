@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+  --primary-font-color: #1F2E55;
+  --secondary-font-color: #717FA6;
+  --main-color: #382AE1;
+  --hover-light: #766CF1;
+  --hover-dark: #1F2E55;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+h2, h3 {
+  color: var(--primary-font-color);
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 900;
+}
+
+p {
+  color: var(--secondary-font-color);
+  font-size: 16px;
+}
+
+html {
+   font-family: Red Hat Display;
+   background: #E0E8FF; 
+}
+
+body { 
+  height: 100vh;
+  background: url(images/background.svg) no-repeat;
+  background-size: 100% auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+  width: 450px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  overflow:hidden;
+  align-items: center;
+}
+
+.hero {
+  height: 220px;
+  width: 100%;
+  background: url(images/hero.svg);
+  background-size: cover;
+}
+
+.info {
+  text-align: center;
+  margin: 48px 45px 0px;
+}
+
+.info h2 {
+  margin-bottom: 17px;
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.info p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.plan {
+  background-color: #F7F9FF;
+  width: 80%;
+  margin-bottom: 36px;
+  height: 98px;
+  border-radius: 11px;
+  padding: 25px;
+}
+
+.plan-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.plan-content a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--main-color);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.plan-content a:hover {
+  color: var(--hover-light);
+}
+
+.plan img {
+  margin-right: 24px;
+}
+
+.plan-type {
+  flex: 1;
+}
+
+.plan-type h3 {
+  margin-bottom: 6px;
+}
+
+.proceed-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--main-color);
+  width: 80%;
+  height: 50px;
+  text-align: center;
+  border-radius: 11px;
+  color: white;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+  margin-bottom: 32px;
+  text-decoration: none;
+}
+
+.proceed-btn:hover {
+  background-color: var(--hover-light);
+}
+
+.cancel-btn {
+  font-weight: 900;
+  font-size: 15px;
+  color: var(--secondary-font-color);
+  text-decoration: none;
+  margin-bottom: 48px;
+}
+
+.cancel-btn:hover {
+  color: var(--hover-dark);
+}
+
+@media screen and (max-width: 480px) {
+  
+  h3 {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+  .container {
+    width: 327px;
+  }
+
+  .hero {
+    height: 160px;
+  }
+  
+  .info {
+    text-align: center;
+    margin: 32px 32px 0px;
+  }
+
+ .info h2 {
+    font-size: 22px;
+  }
+
+  .info p {
+    font-size: 15px;
+  } 
+
+  .plan {
+    margin: 24px;
+    height: 81px;
+    padding: 16px;
+  }
+
+  .plan img {
+    margin-right: 20px;
+  }
+
+  .plan-content {
+    font-size: 13px;
+  }
+
+  .cancel-btn {
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-height: 720px) {
+  
+  body {
+    height: 100%;
+    padding: 10%;
+  }
+
+}
