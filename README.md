@@ -9,5 +9,5 @@ The default [project overviews](#project-overview) for each project can be viewe
 
 |  #  | Challenges                                                                                                                     | Live Demo                                                                         |
 | :-: | --------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| 01  | [Order Summary](https://#)                             | [Live Demo](https://#/)               |
+| 01  | [Order Summary](https://github.com/mariosaputra/FrontendMentor/tree/master/OrderSummary)                             | [Live Demo](https://ordersummary.mariojp26.repl.co/)               |
 
