@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+
+:root {
+  --main-bg-color: #0a0c1c;
+  --main-font-color: #ffffff;
+  --highlight-font-color: rgba(171, 92, 219);
+  --box-bg-color: #1b1937;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--main-font-color);
+}
+
+h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--main-font-color);
+}
+
+h3 {
+  font-family: "Lexend Deca", sans-serif;
+  size: 12px;
+  line-height: 25px;
+  font-weight: 400;
+  color: var(--main-font-color);
+  opacity: 60%;
+}
+
+p {
+  width: 374px;
+  font-family: "Inter", sans-serif;
+  line-height: 25px;
+  margin-top: 25px;
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--main-font-color);
+  opacity: 0.75;
+}
+
+.highlight {
+  color: var(--highlight-font-color);
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--main-bg-color);
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 1110px;
+  height: 446px;
+  background-color: var(--box-bg-color);
+  margin: auto;
+}
+
+.content {
+  width: 50%;
+  padding: 72px;
+  order: 1;
+}
+
+.img-bg {
+  width: 50%;
+  height: 100%;
+  background-color: var(--highlight-font-color);
+  background-image: url("./images/image-header-desktop.jpg");
+  background-size: cover;
+  background-blend-mode: multiply;
+  order: 2;
+}
+
+.stats {
+  display: flex;
+  flex-direction: row;
+  width: 374px;
+  justify-content: space-between;
+  margin-top: 72px;
+}
+
+@media screen and (max-width: 1175px) {
+  .container {
+    flex-direction: column;
+    width: 327px;
+    height: auto;
+  }
+
+  .content {
+    width: 100%;
+    padding: 32px 32px 8px 32px;
+    order: 2;
+  }
+
+  .stats {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .stat-item {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+
+  .img-bg {
+    width: 100%;
+    height: 240px;
+    order: 1;
+  }
+
+  h1 {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  p {
+    margin-top: 16px;
+    width: 100%;
+    text-align: center;
+  }
+}
