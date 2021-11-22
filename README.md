@@ -10,4 +10,4 @@ The default [project overviews](#project-overview) for each project can be viewe
 |  #  | Challenges                                                                                                                     | Live Demo                                                                         |
 | :-: | --------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
 | 01  | [Order Summary](https://github.com/mariosaputra/FrontendMentor/tree/master/OrderSummary)                             | [Live Demo](https://ordersummary.mariojp26.repl.co/)               |
-| 02  | [Order Summary](https://github.com/mariosaputra/FrontendMentor/tree/master/StatsPreviewCard)                             | [Live Demo](https://statspreviewcard.mariojp26.repl.co/)               |
+| 02  | [Stats Preview Card](https://github.com/mariosaputra/FrontendMentor/tree/master/StatsPreviewCard)                             | [Live Demo](https://statspreviewcard.mariojp26.repl.co/)               |
